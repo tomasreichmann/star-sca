@@ -1,0 +1,10 @@
+.base {
+  text-align: left;
+  padding: calc(var(--spacing) * 0.5) var(--spacing);
+  background-color: var(--accent-color);
+}
+
+.title {
+  font-size: 20px;
+  margin: 0;
+}

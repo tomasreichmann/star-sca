@@ -1,0 +1,15 @@
+.base {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.grid {
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+.supply {
+  flex: 0 0 auto;
+  overflow: auto;
+}

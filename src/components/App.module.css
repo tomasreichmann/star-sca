@@ -1,0 +1,11 @@
+.base {
+  --spacing: 20px;
+  --font-family: sans-serif;
+  --accent-color: tomato;
+  --gridSize: 10vmin;
+  font-family: var(--font-family);
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

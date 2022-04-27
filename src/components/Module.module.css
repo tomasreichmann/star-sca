@@ -1,0 +1,14 @@
+.base {
+  --fontSizeBase: calc(var(--gridSize) / 10);
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: var(--gridSize);
+  height: var(--gridSize);
+  font-size: var(--fontSizeBase);
+  overflow: auto;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
